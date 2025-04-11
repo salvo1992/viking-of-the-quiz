@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Quiz del Vikingo 🧠⚔️</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1>Quiz del Vikingo 🧠⚔️</h1>
+
+    <div id="quiz-box">
+      <div id="question-container">
+        <p id="question">Caricamento domanda...</p>
+        <div id="answers"></div>
+        <div id="timer">⏱️ Tempo rimasto: <span id="time">15</span>s</div>
+      </div>
+
+      <div id="result-container" class="hidden">
+        <h2>🎉 Risultato</h2>
+        <p id="score"></p>
+        <button id="restart-btn">Ricomincia</button>
+        <button id="share-btn">Condividi</button>
+      </div>
+    </div>
+
+    <div id="history-container">
+      <h3>🧾 Cronologia punteggi</h3>
+      <ul id="history-list"></ul>
+    </div>
+  </div>
+
+  <footer>
+    <p>👑 Questo sito appartiene al <strong>Vikingo del Web</strong></p>
+    <img src="viking_logo1.png" alt="Vikingo" />
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
