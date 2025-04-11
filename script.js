@@ -4,7 +4,7 @@ let currentQuestionIndex = 0;
 let questions = [];
 let score = 0;
 let timer;
-let timeLeft = 10;
+let timeLeft = 15;
 
 // Elementi DOM
 const questionEl = document.getElementById("question");
